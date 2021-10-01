@@ -22,7 +22,7 @@ class Programming extends React.Component {
                     <h2 className="tagline">
                         Software Engineer
                         <br />
-                        <a href="https://eddymarshall.github.io/portfolio/Edward_Marshall_Resume.pdf">View my Resume</a>
+                        <a href="https://eddymarshall.github.io/portfolio/public/Edward_Marshall_Resume.pdf">View My Resume</a>
                         
                         <br />
                         <Link to="/contact">
@@ -46,10 +46,6 @@ class Programming extends React.Component {
                         </p>
 
                         <p className="about-me-paragraph">
-                            
-                        </p>
-
-                        <p className="about-me-paragraph">
                             I graduated Berklee College of Music in 2015 with 
                             a degree in music education and moved to NYC to be 
                             a musician and a music teacher. As a teacher I spent 
@@ -63,10 +59,12 @@ class Programming extends React.Component {
                         </p>
 
                         <p className="about-me-paragraph">
-                            I look forward to talking to you about this 
-                            opportunity. I also invite you to take a look at my projects below. 
-                            Feel free to apply them to your own learning as well and
-                            do let me know if you have any questions.
+                            You can see just a few of these ideas as well as 
+                            some other projects below. I also invite you to take 
+                            a look at my projects below. Feel free to apply them 
+                            to your own learning as well and do let me know if 
+                            you have any questions. I look forward to hearing
+                            your story and talking to you about mine.
                         </p>
                     </div>
                 </div>
@@ -84,6 +82,10 @@ class Programming extends React.Component {
                                     leading (smooth transitions between chords) on
                                     the guitar.
                                 </p>
+                                <div className="repo-link-centerer">
+                                    <a href="https://github.com/EddyMarshall/Voice_Leading_Visualizer" 
+                                        className="repo-link">Link To Repo</a>
+                                </div>
                             </li>
                         </a>
 
@@ -97,6 +99,10 @@ class Programming extends React.Component {
                                     a jumping off point to create their next hit single. 
                                     Built using React, Redux, MongoDB, Express, Node.js
                                 </p>
+                                <div className="repo-link-centerer">
+                                    <a href="https://github.com/EddyMarshall/Chord_Pro_Generator" 
+                                        className="repo-link">Link To Repo</a>
+                                </div>
                             </li>
                         </a>
 
@@ -109,6 +115,10 @@ class Programming extends React.Component {
                                     A clone of Medium.com. Built using React, Redux, 
                                     Ruby on Rails, AWS, HTML5, and CSS.
                                 </p>
+                                <div className="repo-link-centerer">
+                                    <a href="https://github.com/EddyMarshall/Conduit" 
+                                        className="repo-link">Link To Repo</a>
+                                </div>
                             </li>
                         </a>
 
