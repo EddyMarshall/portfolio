@@ -1,5 +1,5 @@
 import { Splash, Programming, Contact } from "./components"
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-router-dom';
 import './styles/application.scss';
 
 function App() {
