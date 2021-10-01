@@ -106,7 +106,7 @@ class Programming extends React.Component {
                             </li>
                         </a>
 
-                        <a href="https://conduitz.herokuapp.com/"
+                        <a href="https://conduitz.herokuapp.com/" 
                             className="list-container">
                             <li>
                                 <h4 className="project-header">Conduit</h4>
