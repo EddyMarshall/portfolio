@@ -1,0 +1,92 @@
+.splash-background{
+   background:url("marshall_splash.jpg") no-repeat;
+   position: absolute;
+   background-size: cover;
+   min-height: 600px;
+   top: 0px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: -5;
+}
+
+.background-overlay {
+  position: relative;
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: -4;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    height: 220px;
+    margin-left: 60px;
+}
+
+.header-proper {
+    color: whitesmoke;
+    font-size: 70px;
+    letter-spacing: 0.15em;
+}
+
+.tagline {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 0.13em;
+}
+
+.links-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke
+}
+
+.list-link {
+    position: relative;  
+    background: rgba(211, 204, 204, 0.3);
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 40px;
+    border-radius: 19px;
+    font-size: 20px;
+}
+
+.list-link:hover {
+    top: 2px;
+    background: rgba(252, 252, 252, 0.6);
+    transition: 3s;
+}
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .header-proper {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .tagline {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .links-container {
+        width: 100%;
+    }
+}
+
