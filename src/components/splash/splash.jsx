@@ -12,7 +12,7 @@ class Splash extends React.Component {
 
             <div className="header-container">
                 <h1 className="header-proper">
-                    Eddy Marshall
+                    Edward Marshall
                 </h1>
                 <h2 className="tagline">
                     Software Engineer | Musician | Educator

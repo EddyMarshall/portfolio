@@ -1,0 +1,95 @@
+.programming-background{
+   background:url("programming_background.jpg") center center no-repeat;
+   position: fixed;
+   background-size: cover;
+   top: -200px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: -5;
+}
+
+.programming-background-overlay {
+  position: relative;
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: -4;
+}
+
+.about-me-section-centerer {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-section {
+  width: 80%;
+  height: fit-content;
+  padding: 20px 30px 20px 30px;
+  border-radius: 19px;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.about-me-paragraph {
+  margin-bottom: 30px;
+}
+
+.projects-centerer {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    color: whitesmoke;
+}
+
+.list-container {
+  width: 30%;
+  height: fit-content;
+  background: rgba(211, 204, 204, 0.3);
+  padding: 10px 10px 15px 10px;
+  border-radius: 19px;
+}
+
+.list-container:hover {
+    background: rgba(252, 252, 252, 0.6);
+    transition: 3s;
+}
+
+.project-header {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.list-image {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+}
+
+.project-info {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 610px) {
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .list-container {
+    min-width: fit-content;
+    margin-bottom: 20px;
+  }
+}

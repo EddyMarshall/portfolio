@@ -1,0 +1,51 @@
+.contact-background{
+   background:url("landscape_bench.jpeg") center center no-repeat;
+   position: fixed;
+   background-size: cover;
+   top: -200px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: -5;
+}
+
+.contact-background-overlay {
+  position: relative;
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: -4;
+}
+
+.links-centerer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.email {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.email-link {
+  text-decoration: underline;
+}
+
+.social-media-link {
+  margin-bottom: 20px;
+}
