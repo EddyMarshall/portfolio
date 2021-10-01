@@ -38,16 +38,22 @@ class Programming extends React.Component {
                         </p>
 
                         <p className="about-me-paragraph">
-                            I am a Full-Stack web developer and here is the 
-                            short list of what I can do: React | JavaScript | 
+                            I am a Full-Stack web developer. In 2021 I graduated 
+                            from <a className="app-link" href="https://www.appacademy.io/">App Academy</a>, a 1000+ 
+                            hour intensive coding bootcamp with an acceptance rate below 3%. Here is the 
+                            short list of what I can do: 
+                        </p>
+
+                        <p className="about-me-paragraph skills">
+                            React | JavaScript |
                             Redux | HTML | CSS | Ruby | Ruby on Rails | Mongoose
-                            | MongoDB | Node.js | Express.js | SQL | PostgreSQL 
+                            | MongoDB | Node.js | Express.js | SQL | PostgreSQL
                             | jQuery | Git | Heroku | AWS
                         </p>
 
                         <p className="about-me-paragraph">
-                            I graduated Berklee College of Music in 2015 with 
-                            a degree in music education and moved to NYC to be 
+                            I graduated magna cum laude 
+                            from <a className="app-link" href="https://www.berklee.edu/">Berklee College of Music</a> in 2015 with a degree in music education and moved to NYC to be
                             a musician and a music teacher. As a teacher I spent 
                             oodles of hours reflecting upon my lessons to 
                             understand how I can make the presentation more 

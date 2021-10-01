@@ -38,6 +38,15 @@
 
 .about-me-paragraph {
   margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.app-link {
+  text-decoration: underline;
+}
+
+.skills {
+  letter-spacing: .13em;
 }
 
 .projects-centerer {
@@ -60,6 +69,7 @@
   padding: 10px 10px 15px 10px;
   border-radius: 19px;
   margin-bottom: 20px;
+  box-shadow: 0 4px 2px -2px black;
 }
 
 .list-container:hover {
