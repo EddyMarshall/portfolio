@@ -22,13 +22,8 @@ class Programming extends React.Component {
                     <h2 className="tagline">
                         Software Engineer
                         <br />
-                        <Link to="/Edward_Marshall_Resume.pdf"
-                            target="_blank"
-                            download
-                            className="resume-link"
-                        >
-                        Download My Resume
-                        </Link>
+                        <a href="https://eddymarshall.github.io/portfolio/Edward_Marshall_Resume.pdf">View my Resume</a>
+                        
                         <br />
                         <Link to="/contact">
                             Contact
