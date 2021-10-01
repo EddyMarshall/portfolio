@@ -22,7 +22,10 @@ class Programming extends React.Component {
                     <h2 className="tagline">
                         Software Engineer
                         <br />
-                        <a href="https://eddymarshall.github.io/portfolio/public/Edward_Marshall_Resume.pdf">View My Resume</a>
+                        <a href="https://eddymarshall.github.io/portfolio/public/Edward_Marshall_Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            View My Resume</a>
                         
                         <br />
                         <Link to="/contact">
