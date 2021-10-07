@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import voiceImage from '../../styles/assets/VLV.png';
 import conduitImage from '../../styles/assets/Conduit.png';
 import generatorImage from '../../styles/assets/chord_pro_gen.png';
+import personalImage from '../../styles/assets/personal.png';
 
 class Programming extends React.Component {
     render() {
@@ -58,9 +59,9 @@ class Programming extends React.Component {
                             I graduated magna cum laude 
                             from <a className="app-link" href="https://www.berklee.edu/">Berklee College of Music</a> in 2015 with a degree in music education and moved to NYC to be
                             a musician and a music teacher. As a teacher I spent 
-                            oodles of hours reflecting upon my lessons to 
+                            countless hours reflecting upon my lessons to 
                             understand how I can make the presentation more 
-                            streamlined and more novel so I can keep the kiddos 
+                            streamlined and more novel so I can keep the students 
                             engaged, especially during remote teaching the past 
                             two years. I had a few ideas on small applications 
                             to create to teach a few and realized I can learn 
@@ -69,8 +70,7 @@ class Programming extends React.Component {
 
                         <p className="about-me-paragraph">
                             You can see just a few of these ideas as well as 
-                            some other projects below. I also invite you to take 
-                            a look at my projects below. Feel free to apply them 
+                            some other projects below. Feel free to apply them 
                             to your own learning as well and do let me know if 
                             you have any questions. I look forward to hearing
                             your story and talking to you about mine.
@@ -95,6 +95,20 @@ class Programming extends React.Component {
                                     <a href="https://github.com/EddyMarshall/Voice_Leading_Visualizer" 
                                         className="repo-link">Link To Repo</a>
                                 </div>
+                            </li>
+                        </a>
+
+                        <a href="https://eddymarshall.github.io/Tallie_Gabriel/"
+                            className="list-container">
+                            <li>
+                                <h4 className="project-header">Personal Sites</h4>
+                                <img src={personalImage} alt="" className="list-image" />
+                                <p className="project-info">
+                                    I build personal websites for bands, writers, 
+                                    and solo musicians using React, HTML, and SCSS.
+                                    It is a blast collaborating to convey their 
+                                    specific art, vision and brand through a digital medium.
+                                </p>
                             </li>
                         </a>
 
