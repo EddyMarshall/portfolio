@@ -80,6 +80,7 @@ class Programming extends React.Component {
                     <ul className="projects-list">
                         
                             <li className="list-container">
+                                <div>
                                 <h4 className="project-header">Voice Leading Visualizer</h4>
                                 <img src={voiceImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -98,10 +99,13 @@ class Programming extends React.Component {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 ><div></div></a>
+                                </div>
+                                
                             </li>
 
                         
                             <li className="list-container">
+                                <div>
                                 <h4 className="project-header">Personal Sites</h4>
                                 <img src={personalImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -115,10 +119,12 @@ class Programming extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             ><div></div></a>
+                            </div>
                             </li>
 
                         
                             <li className="list-container">
+                                <div>
                                 <h4 className="project-header">Chord Pro Generator</h4>
                                 <img src={generatorImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -136,10 +142,12 @@ class Programming extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             ><div></div></a>
+                            </div>
                             </li>
                         
                         
                             <li className="list-container">
+                                <div>
                                 <h4 className="project-header">Conduit</h4>
                                 <img src={conduitImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -156,6 +164,7 @@ class Programming extends React.Component {
                                     className="cover-link"
                                     target="_blank"
                                     rel="noopener noreferrer"><div></div></a>
+                            </div>
                             </li>
 
                     </ul>
