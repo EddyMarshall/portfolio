@@ -63,6 +63,7 @@
 }
 
 .list-container {
+  position: relative;
   width: 30%;
   height: fit-content;
   background: rgba(211, 204, 204, 0.3);
@@ -93,6 +94,14 @@
   margin-bottom: 20px;
 }
 
+.cover-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .repo-link-centerer {
   display: flex;
   justify-content: center;
@@ -101,6 +110,7 @@
 .repo-link {
   font-size: 18px;
   text-align: center;
+  z-index: 20;
 }
 
 

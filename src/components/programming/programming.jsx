@@ -40,9 +40,10 @@ class Programming extends React.Component {
 
                         <p className="about-me-paragraph">
                             Hello! I am a Full-Stack web developer. In 2021 I graduated 
-                            from <a className="app-link" href="https://www.appacademy.io/">App Academy</a>, a 1000+ 
+                            from <a className="app-link" target="_blank"
+                                rel="noopener noreferrer" href="https://www.appacademy.io/">App Academy</a>, a 1000+
                             hour intensive coding bootcamp with an acceptance rate below 3%. Here is the 
-                            short list of what I : 
+                            short list of what I am proficient in: 
                         </p>
 
                         <p className="about-me-paragraph skills">
@@ -54,7 +55,8 @@ class Programming extends React.Component {
 
                         <p className="about-me-paragraph">
                             I graduated magna cum laude 
-                            from <a className="app-link" href="https://www.berklee.edu/">Berklee College of Music</a> in 2015 with a degree in music education and moved to NYC to be
+                            from <a className="app-link" target="_blank"
+                                rel="noopener noreferrer" href="https://www.berklee.edu/">Berklee College of Music</a> in 2015 with a degree in music education and moved to NYC to be
                             a musician and a music teacher. As a teacher I devoted 
                             countless hours to reflecting upon and refining my lesson 
                             plans. I developed methods to keep my students 
@@ -76,9 +78,8 @@ class Programming extends React.Component {
 
                 <div className="projects-centerer">
                     <ul className="projects-list">
-                        <a href="https://eddymarshall.github.io/Voice_Leading_Visualizer/"
-                            className="list-container">
-                            <li>
+                        
+                            <li className="list-container">
                                 <h4 className="project-header">Voice Leading Visualizer</h4>
                                 <img src={voiceImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -88,15 +89,20 @@ class Programming extends React.Component {
                                     the guitar.
                                 </p>
                                 <div className="repo-link-centerer">
-                                    <a href="https://github.com/EddyMarshall/Voice_Leading_Visualizer" 
+                                    <a target="_blank"
+                                        rel="noopener noreferrer" href="https://github.com/EddyMarshall/Voice_Leading_Visualizer"
                                         className="repo-link">Link To Repo</a>
                                 </div>
+                                <a href="https://eddymarshall.github.io/Voice_Leading_Visualizer/"
+                                    className="cover-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                </a>
                             </li>
-                        </a>
 
-                        <a href="https://eddymarshall.github.io/Tallie_Gabriel/"
-                            className="list-container">
-                            <li>
+                        
+                            <li className="list-container">
                                 <h4 className="project-header">Personal Sites</h4>
                                 <img src={personalImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -105,12 +111,16 @@ class Programming extends React.Component {
                                     It is a blast collaborating to convey their 
                                     specific art, vision and brand through a digital medium.
                                 </p>
+                            <a href="https://eddymarshall.github.io/Tallie_Gabriel/"
+                                className="cover-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                            </a>
                             </li>
-                        </a>
 
-                        <a href="https://chord-pro-generator.herokuapp.com/"
-                            className="list-container">
-                            <li>
+                        
+                            <li className="list-container">
                                 <h4 className="project-header">Chord Pro Generator</h4>
                                 <img src={generatorImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -119,15 +129,19 @@ class Programming extends React.Component {
                                     Built using React, Redux, MongoDB, Express, Node.js
                                 </p>
                                 <div className="repo-link-centerer">
-                                    <a href="https://github.com/EddyMarshall/Chord_Pro_Generator" 
+                                    <a target="_blank"
+                                        rel="noopener noreferrer" href="https://github.com/EddyMarshall/Chord_Pro_Generator"
                                         className="repo-link">Link To Repo</a>
                                 </div>
+                            <a href="https://chord-pro-generator.herokuapp.com/"
+                                className="cover-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ></a>
                             </li>
-                        </a>
-
-                        <a href="https://conduitz.herokuapp.com/" 
-                            className="list-container">
-                            <li>
+                        
+                        
+                            <li className="list-container">
                                 <h4 className="project-header">Conduit</h4>
                                 <img src={conduitImage} alt="" className="list-image" />
                                 <p className="project-info">
@@ -136,10 +150,15 @@ class Programming extends React.Component {
                                 </p>
                                 <div className="repo-link-centerer">
                                     <a href="https://github.com/EddyMarshall/Conduit" 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="repo-link">Link To Repo</a>
                                 </div>
+                                <a href="https://conduitz.herokuapp.com/" 
+                                    className="cover-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"></a>
                             </li>
-                        </a>
 
                     </ul>
                 </div>
