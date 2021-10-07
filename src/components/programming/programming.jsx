@@ -37,15 +37,12 @@ class Programming extends React.Component {
 
                 <div className="about-me-section-centerer">
                     <div className="about-me-section">
-                        <p className="about-me-paragraph">
-                            Hello. It is I. Edward. 
-                        </p>
 
                         <p className="about-me-paragraph">
-                            I am a Full-Stack web developer. In 2021 I graduated 
+                            Hello! I am a Full-Stack web developer. In 2021 I graduated 
                             from <a className="app-link" href="https://www.appacademy.io/">App Academy</a>, a 1000+ 
                             hour intensive coding bootcamp with an acceptance rate below 3%. Here is the 
-                            short list of what I can do: 
+                            short list of what I : 
                         </p>
 
                         <p className="about-me-paragraph skills">
@@ -58,18 +55,17 @@ class Programming extends React.Component {
                         <p className="about-me-paragraph">
                             I graduated magna cum laude 
                             from <a className="app-link" href="https://www.berklee.edu/">Berklee College of Music</a> in 2015 with a degree in music education and moved to NYC to be
-                            a musician and a music teacher. As a teacher I spent 
-                            countless hours reflecting upon my lessons to 
-                            understand how I can make the presentation more 
-                            streamlined and more novel so I can keep the students 
+                            a musician and a music teacher. As a teacher I devoted 
+                            countless hours to reflecting upon and refining my lesson 
+                            plans. I developed methods to keep my students 
                             engaged, especially during remote teaching the past 
-                            two years. I had a few ideas on small applications 
-                            to create to teach a few and realized I can learn 
-                            how to create them myself.
+                            two years. That led to several ideas for small educational 
+                            applications and I soon realized that I could learn 
+                            to create them myself. 
                         </p>
 
                         <p className="about-me-paragraph">
-                            You can see just a few of these ideas as well as 
+                            You can see a few of these ideas in addition to 
                             some other projects below. Feel free to apply them 
                             to your own learning as well and do let me know if 
                             you have any questions. I look forward to hearing
