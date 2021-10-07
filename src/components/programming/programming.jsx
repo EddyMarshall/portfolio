@@ -69,9 +69,9 @@ class Programming extends React.Component {
                         <p className="about-me-paragraph">
                             You can see a few of these ideas in addition to 
                             some other projects below. Feel free to apply them 
-                            to your own learning as well and do let me know if 
-                            you have any questions. I look forward to hearing
-                            your story and talking to you about mine.
+                            to your own learning as well. I welcome your reactions and suggestions. 
+                            I look forward to hearing
+                            your story and sharing mine.
                         </p>
                     </div>
                 </div>
