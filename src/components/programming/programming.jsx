@@ -97,8 +97,7 @@ class Programming extends React.Component {
                                     className="cover-link"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                >
-                                </a>
+                                ><div></div></a>
                             </li>
 
                         
@@ -115,8 +114,7 @@ class Programming extends React.Component {
                                 className="cover-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >
-                            </a>
+                            ><div></div></a>
                             </li>
 
                         
@@ -137,7 +135,7 @@ class Programming extends React.Component {
                                 className="cover-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            ></a>
+                            ><div></div></a>
                             </li>
                         
                         
@@ -157,7 +155,7 @@ class Programming extends React.Component {
                                 <a href="https://conduitz.herokuapp.com/" 
                                     className="cover-link"
                                     target="_blank"
-                                    rel="noopener noreferrer"></a>
+                                    rel="noopener noreferrer"><div></div></a>
                             </li>
 
                     </ul>
