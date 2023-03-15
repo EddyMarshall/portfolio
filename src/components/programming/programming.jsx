@@ -48,7 +48,7 @@ class Programming extends React.Component {
 
                         <p className="about-me-paragraph skills">
                             React | JavaScript |
-                            Redux | HTML | CSS | Ruby | Ruby on Rails | Mongoose
+                            Redux | HTML | CSS | Mongoose
                             | MongoDB | Node.js | Express.js | SQL | PostgreSQL
                             | jQuery | Git | Heroku | AWS
                         </p>
@@ -114,11 +114,6 @@ class Programming extends React.Component {
                                     It is a blast collaborating to convey their 
                                     specific art, vision and brand through a digital medium.
                                 </p>
-                            <a href="https://eddymarshall.github.io/Tallie_Gabriel/"
-                                className="cover-link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><div></div></a>
                             </div>
                             </li>
 
@@ -137,33 +132,11 @@ class Programming extends React.Component {
                                         rel="noopener noreferrer" href="https://github.com/EddyMarshall/Chord_Pro_Generator"
                                         className="repo-link">Link To Repo</a>
                                 </div>
-                            <a href="https://chord-pro-generator.herokuapp.com/"
+                            <a href="https://github.com/EddyMarshall/Chord_Pro_Generator"
                                 className="cover-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             ><div></div></a>
-                            </div>
-                            </li>
-                        
-                        
-                            <li className="list-container">
-                                <div>
-                                <h4 className="project-header">Conduit</h4>
-                                <img src={conduitImage} alt="" className="list-image" />
-                                <p className="project-info">
-                                    A clone of Medium.com. Built using React, Redux, 
-                                    Ruby on Rails, AWS, HTML5, and CSS.
-                                </p>
-                                <div className="repo-link-centerer">
-                                    <a href="https://github.com/EddyMarshall/Conduit" 
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="repo-link">Link To Repo</a>
-                                </div>
-                                <a href="https://conduitz.herokuapp.com/" 
-                                    className="cover-link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"><div></div></a>
                             </div>
                             </li>
 
